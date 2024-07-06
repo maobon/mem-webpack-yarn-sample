@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- EChart -->
+        <div id="main" style="width: 600px;height:400px;"></div>
+
+        <div id="main2" style="width: 600px;height:400px;"></div>
+
+        <h3>专利增长趋势</h3>
+        <div id="main3" style="width: 600px;height:400px;"></div>
+
+        <!-- Gannt Chart -->
+        <h3>专利研发周期</h3>
+        <div style="width: 1000px;height:600px;">
+            <svg id="gantt"></svg>
+        </div>
+
+        <!-- Relation Chart -->
+        <h3>专利间法律关系</h3>
+        <div class="panel">
+            <div id="model-kg-graph" style="height: 800px"></div>
+        </div>
+
+        <!-- networks test -->
+        <!--<script type="module" src="./javascript/net/sample.js"></script>-->
+    </div>
+
+</body>
+
+</html>
